@@ -117,7 +117,6 @@ h1, h2, h3, p {
     text-align: center;
     text-shadow: 7px 6px rgba(0, 0, 0, 0.589);
 }
-
 .btn {
     margin-top: 35px;
     margin-bottom: 10px;
@@ -137,7 +136,6 @@ h1, h2, h3, p {
 .btn:hover {
     background-color: #bb005a;
 }
-
 @media(max-width: 1400px) {
     .first-box h1 {
         font-size: 3.3rem;
