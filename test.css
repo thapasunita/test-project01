@@ -100,7 +100,7 @@ h1, h2, h3, p {
 
 .first-box h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5.4rem;
+    font-size: 4.5rem;
     color: white;
     text-align: center;
     font-weight: 900;
@@ -112,14 +112,14 @@ h1, h2, h3, p {
 }
 
 .second-box h2 {
-    font-size: 4rem;
+    font-size: 3.7rem;
     color: white;
     text-align: center;
     text-shadow: 7px 6px rgba(0, 0, 0, 0.589);
 }
 
 .btn {
-    margin-top: 10px;
+    margin-top: 35px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 1rem;
@@ -140,10 +140,10 @@ h1, h2, h3, p {
 
 @media(max-width: 1400px) {
     .first-box h1 {
-        font-size: 3.9rem;
+        font-size: 3.3rem;
     }
     .second-box h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .btn {
         margin-left: 80px;
@@ -152,7 +152,7 @@ h1, h2, h3, p {
 
 @media(max-width: 700px) {
     .first-box h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .second-box h2 {
         font-size: 2rem;
