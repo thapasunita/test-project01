@@ -1,77 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Your village</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <div class="full-container">
         <div class="bg-image">
             <nav class="navbar">
                 <div class="container">
-                   <div class="fbox">
-                       <h3>START BOOTSTRAP</h3>
-                   </div>
-                   <div class="sbox">
-                       <li id="list"><a href="#">SIGN UP</a></li>
-                       <li><a href="#">SIGN IN</a></li>
-                      <span id="div-box">&#9776;</span>
-                   </div>
-                 
+                    <div class="fbox">
+                        <h3>YOUR VILLAGE</h3>
+                    </div>
+                    <span id="div-box" onclick="showmenu()">&#9776;</span>
+                    <div class="sbox">
+                        <li><a href="#">SIGN UP</a></li>
+                        <li><a href="#">SIGN IN</a></li>
+
+                    </div>
+
                 </div>
             </nav>
             <div class="text-box">
-               <div class="first-box"><h1>Welcome your village</h1></div>
-               <div class="second-box"><h2>Will Rock Your Socks Off</h2></div>
-               <div class="last-box"><button class="btn">LEARN MORE</button></div>
+                <div class="first-box">
+                    <h1>Welcome your village</h1>
+                </div>
+                <div class="second-box">
+                    <h2>Will Rock Your Socks Off</h2>
+                </div>
+                <div class="last-box"><button class="btn">LEARN MORE</button></div>
             </div>
         </div>
-   
-        <section class="box">
-           
-                <div class="box-box">
-                    <div class="container">
-                        <div class="box1">
-                            <h1>For those about to rock...</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                        <div class="box2">
-                            <img src="pexels-photo-746921.jpeg" alt="">
-                        </div>
-                    </div>
-                </div>
-              
-                <div class="box-box">
-                    <div class="container">
-                        <div class="box2">
-                            <img src="pexels-photo-259780.jpeg" alt="">
-                        </div>
-                        <div class="box1">
-                            <h1>We salute you!</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="box-box">
-                    <div class="container">
-                        <div class="box1">
-                            <h1>Let there be rock!</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                        <div class="box2">
-                            <img src="pexels-photo-746921.jpeg" alt="">
-                        </div>
+        <section class="box">
+
+            <div class="box-box">
+                <div class="container">
+                    <div class="box1">
+                        <h1>For those about to rock...</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                    <div class="box2">
+                        <img src="pexels-photo-746921.jpeg" alt="">
                     </div>
                 </div>
+            </div>
+
+            <div class="box-box">
+                <div class="container">
+                    <div class="box2">
+                        <img src="pexels-photo-259780.jpeg" alt="">
+                    </div>
+                    <div class="box1">
+                        <h1>We salute you!</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-box">
+                <div class="container">
+                    <div class="box1">
+                        <h1>Let there be rock!</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
+                            sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
+                            voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    </div>
+                    <div class="box2">
+                        <img src="pexels-photo-746921.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
 
         <footer class="footer">
             <p>Copyright © Your Website 2019</p>
         </footer>
-</div>
 
+
+    </div>
+    <script>
+        var a = 0;
+
+        function showmenu() {
+            if (a == 0) {
+                document.getElementsByClassName("sbox")[0].style.display = "block";
+                a = 1;
+            }
+            else {
+                document.getElementsByClassName("sbox")[0].style.display = "none";
+                a = 0;
+            }
+
+        }
+    </script>
 </body>
+
 </html>

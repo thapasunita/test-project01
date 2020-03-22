@@ -25,16 +25,18 @@ h1, h2, h3, p {
 .navbar {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.425);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
     width: 1024px;
     margin: auto;
-    display: flex;
+   
 }
 
 .fbox {
-    width: 40%;
+   display: inline;
 }
 
 .fbox h3 {
@@ -43,16 +45,13 @@ h1, h2, h3, p {
     padding-top: 20px;
     padding-bottom: 20px;
     cursor: pointer;
+    display: inline;
+   word-spacing: 10px;
 }
 
 .sbox {
-    width: 60%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#list {
-    padding-left: 200px;
+ 
+ float: right;
 }
 
 .sbox li {
@@ -74,16 +73,30 @@ h1, h2, h3, p {
 #div-box {
     color: white;
     font-size: 20px;
-    display: none;
+   position: absolute;
+   cursor: pointer;
+   display: none;
+   left: 95%;
+   top: 10px;
 }
 
-@media(max-width: 900px) {
-    .sbox li {
+@media(max-width: 970px) {
+    .fbox{
+        padding-left: 60px;
+    }
+    .sbox{
         display: none;
+         float: none;
+        padding-left: 60px;
+    }
+    .sbox li{
+        list-style: none;
+     display: block;
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-top: 15px;
     }
     #div-box {
-        margin-left: 200px;
-        cursor: pointer;
         display: block;
     }
 }
