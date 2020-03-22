@@ -1,0 +1,269 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-container {
+    width: 100%;
+}
+
+.bg-image {
+    padding-bottom: 200px;
+    background: url("lavakidneys_800x400@2x-2db5e5a0c944e2b16a11a18674570f76.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+}
+
+.fbox {
+    width: 40%;
+}
+
+.fbox h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.sbox {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#list {
+    padding-left: 200px;
+}
+
+.sbox li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sbox li a {
+    color: rgb(199, 198, 198);
+    text-decoration: none;
+}
+
+.sbox li a:hover {
+    color: white;
+}
+
+#div-box {
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+@media(max-width: 900px) {
+    .sbox li {
+        display: none;
+    }
+    #div-box {
+        margin-left: 200px;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+.text-box {
+    width: 45%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.first-box {
+    padding-bottom: 10px;
+}
+
+.first-box h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5.4rem;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 7px 6px rgba(0, 0, 0, 0.589);
+}
+
+.second-box {
+    padding-bottom: 10px;
+}
+
+.second-box h2 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    text-shadow: 7px 6px rgba(0, 0, 0, 0.589);
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 50px;
+    margin-left: 36%;
+    background-color: #ee0979;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #bb005a;
+}
+
+@media(max-width: 1400px) {
+    .first-box h1 {
+        font-size: 3.9rem;
+    }
+    .second-box h2 {
+        font-size: 3rem;
+    }
+    .btn {
+        margin-left: 80px;
+    }
+}
+
+@media(max-width: 700px) {
+    .first-box h1 {
+        font-size: 3rem;
+    }
+    .second-box h2 {
+        font-size: 2rem;
+    }
+    .btn {
+        margin-left: 30px;
+    }
+    .sbox li {
+        display: none;
+    }
+    #div-box {
+        margin-left: 100px;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+.box-box {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.box1 {
+    width: 47%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box1 h1 {
+    font-size: 57px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.box1 p {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.box2 {
+    width: 53%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box2 img {
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.box1 img {
+    border-radius: 100%;
+    width: 500px;
+    padding-left: 30px;
+}
+
+.box2 h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.box2 p {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+@media(max-width: 1000px) {
+    .box1 h1 {
+        font-size: 50px;
+    }
+    .box1 p {
+        font-size: 15px;
+       
+    }
+    .box2 img {
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+        padding-left: 5px;
+    }
+    .box1 img {
+        border-radius: 100%;
+        width: 300px;
+      
+    }
+    .box2 h1 {
+        font-size: 50px;
+       
+    }
+    .box2 p {
+     
+        font-size: 15px;
+    }
+}
+
+.footer {
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+@media(max-width: 600px){
+    .bg-image{
+        width: 100%;
+    }
+    
+}
